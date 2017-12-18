@@ -19,7 +19,7 @@
 </head>
 <body>
 
-<div class="header" style="display: none;"> 
+<div class="header" > 
 <nav class="navbar navbar-default navbar-static-top">
 <div class="container">
     <div class="navbar-header">
@@ -43,7 +43,7 @@
             
             <li><a href="#"> Home  </a></li>
             <li><a href="#about"> About  </a></li>
-            <li><a href="#services"> Services  </a></li>
+            <li><a href="#team"> Team  </a></li>
             <li><a href="#work"> Portfolio </a></li>
             <li><a href="#contact"> Contact </a></li>
 
@@ -58,11 +58,13 @@
 <section id="intro">
 <div class="container">
     <div class="row">
-       <div class="into_div">
+       <div class="into_div clearfix">
             <div class="new_container">
-              <div class="col-md-12">
-              <h1> Digital <br> Company </h1>
+               <div class="col-md-10 col-md-offset-1">
+              
                 <h2> Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h2> 
+
+                <div class="icon_intro clearfix">
 
                 <div class="col-md-3 no_padding">
                     <div class="serices_list">
@@ -94,6 +96,8 @@
                     </div>
                 </div>
 
+              </div>
+
 
 
               </div>
@@ -109,7 +113,26 @@
     <div class="row">
         <div class="col-md-12 ">
 
-            <div class="col-md-8 no_padding">
+
+          <div class="col-md-4 no_padding float_right">
+               <div class="div_color">
+                 <p class="content_header"> About us </p>
+
+                 <div class="content">
+                     <p>
+                       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+                     </p>
+
+                     <p>
+                       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                     </p>
+
+                 </div>
+
+               </div>
+            </div>
+
+            <div class="col-md-8 no_padding float_left">
                <div class="div_color_2">
                   <div class="content clearfix">
                     <div class="col-md-12 clearfix">
@@ -186,23 +209,7 @@
                </div> 
             </div>
 
-            <div class="col-md-4 no_padding">
-               <div class="div_color">
-                 <p class="content_header"> About us </p>
-
-                 <div class="content">
-                     <p>
-                       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-                     </p>
-
-                     <p>
-                       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-                     </p>
-
-                 </div>
-
-               </div>
-            </div>
+            
 
         </div>
     </div>
@@ -213,7 +220,7 @@
 <section id="team">
 <div class="container">
     <div class="row">
-       <div class="into_div">
+       <div class="into_div clearfix">
             <div class="new_container">
             <div class="col-md-12">
             
@@ -277,41 +284,272 @@
                       
                       <div class="conx work_div clearfix">
 
-                        <div class="col-md-4">
+                        <a href="#" data-toggle="modal" data-target="#myModal" >
+                        <div class="col-md-4 col-md-pull-4 col-sm-6">
                             <img src="img/work/mix2.jpg" class="img-responsive">
+                            <div class="work_div_into">
+                               <i class="fa fa-search"></i> <span class="pull-right"> JJb website </span>
+                            </div>
                         </div>
+                        </a>
 
-                        <div class="col-md-4">
+
+
+                          <div id="myModal" class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+
+                              <!-- Modal content-->
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                  <h4 class="modal-title">JJb website</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="img/work/mix2.jpg" class="img-responsive">
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                              </div>
+
+                            </div>
+                          </div>
+
+                        <a href="#" data-toggle="modal" data-target="#myModal2" >
+                        <div class="col-md-4 col-md-pull-4 col-sm-6">
                             <img src="img/work/mix1.jpg" class="img-responsive">
+                            <div class="work_div_into">
+                               <i class="fa fa-search"></i> <span class="pull-right"> JJb website </span>
+                            </div>
                         </div>
+                      </a>
 
-                        <div class="col-md-4">
+                          <div id="myModal2" class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+
+                              <!-- Modal content-->
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                  <h4 class="modal-title">JJb website</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="img/work/mix1.jpg" class="img-responsive">
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                              </div>
+
+                            </div>
+                          </div>
+
+                        <a href="#" data-toggle="modal" data-target="#myModal3" >
+                        <div class="col-md-4 col-md-pull-4 col-sm-6">
                             <img src="img/work/mix3.jpg" class="img-responsive">
+                            <div class="work_div_into">
+                               <i class="fa fa-search"></i> <span class="pull-right"> JJb website </span>
+                            </div>
                         </div>
+                      </a>
 
-                        <div class="col-md-4">
+                        <div id="myModal3" class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+
+                              <!-- Modal content-->
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                  <h4 class="modal-title">JJb website</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="img/work/mix3.jpg" class="img-responsive">
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                              </div>
+
+                            </div>
+                          </div>
+
+                        <a href="#" data-toggle="modal" data-target="#myModal4" >
+                        <div class="col-md-4 col-md-pull-4 col-sm-6">
                             <img src="img/work/mix6.jpg" class="img-responsive">
+                            <div class="work_div_into">
+                               <i class="fa fa-search"></i> <span class="pull-right"> JJb website </span>
+                            </div>
                         </div>
+                      </a>
 
-                        <div class="col-md-4">
+                        <div id="myModal4" class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+
+                              <!-- Modal content-->
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                  <h4 class="modal-title">JJb website</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="img/work/mix6.jpg" class="img-responsive">
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                              </div>
+
+                            </div>
+                          </div>
+
+                      <a href="#" data-toggle="modal" data-target="#myModal5" >
+                        <div class="col-md-4 col-md-pull-4 col-sm-6">
                             <img src="img/work/mix5.jpg" class="img-responsive">
+                            <div class="work_div_into">
+                               <i class="fa fa-search"></i> <span class="pull-right"> JJb website </span>
+                            </div>
                         </div>
+                      </a>
 
-                        <div class="col-md-4">
+                      <div id="myModal5" class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+
+                              <!-- Modal content-->
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                  <h4 class="modal-title">JJb website</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="img/work/mix5.jpg" class="img-responsive">
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                              </div>
+
+                            </div>
+                          </div>
+
+                        <a href="#" data-toggle="modal" data-target="#myModal6" >
+
+                        <div class="col-md-4 col-md-pull-4 col-sm-6">
                             <img src="img/work/mix7.jpg" class="img-responsive">
+                            <div class="work_div_into">
+                               <i class="fa fa-search"></i> <span class="pull-right"> JJb website </span>
+                            </div>
                         </div>
 
-                        <div class="col-md-4">
+                      </a>
+
+                        <div id="myModal6" class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+
+                              <!-- Modal content-->
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                  <h4 class="modal-title">JJb website</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="img/work/mix7.jpg" class="img-responsive">
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                              </div>
+
+                            </div>
+                          </div>
+
+                        <a href="#" data-toggle="modal" data-target="#myModal7" >
+                        <div class="col-md-4 col-md-pull-4 col-sm-6">
                             <img src="img/work/mix8.jpg" class="img-responsive">
+                            <div class="work_div_into">
+                               <i class="fa fa-search"></i> <span class="pull-right"> JJb website </span>
+                            </div>
                         </div>
+                        </a>
 
-                        <div class="col-md-4">
+                        <div id="myModal7" class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+
+                              <!-- Modal content-->
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                  <h4 class="modal-title">JJb website</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="img/work/mix8.jpg" class="img-responsive">
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                              </div>
+
+                            </div>
+                          </div>
+
+                        <a href="#" data-toggle="modal" data-target="#myModal8" >
+                        <div class="col-md-4 col-md-pull-4 col-sm-6">
                             <img src="img/work/mix2.jpg" class="img-responsive">
+                            <div class="work_div_into">
+                               <i class="fa fa-search"></i> <span class="pull-right"> JJb website </span>
+                            </div>
                         </div>
+                      </a>
 
-                        <div class="col-md-4">
+                      <div id="myModal8" class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+
+                              <!-- Modal content-->
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                  <h4 class="modal-title">JJb website</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="img/work/mix2.jpg" class="img-responsive">
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                              </div>
+
+                            </div>
+                          </div>
+
+                        <a href="#" data-toggle="modal" data-target="#myModal9" >
+                        <div class="col-md-4 col-md-pull-4 col-sm-6">
                             <img src="img/work/mix1.jpg" class="img-responsive">
+                            <div class="work_div_into">
+                               <i class="fa fa-search"></i> <span class="pull-right"> JJb website </span>
+                            </div>
                         </div>
+                      </a>
+
+                      <div id="myModal9" class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+
+                              <!-- Modal content-->
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                  <h4 class="modal-title">JJb website</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="img/work/mix1.jpg" class="img-responsive">
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                              </div>
+
+                            </div>
+                          </div>
+
+
 
                     </div>
 
@@ -330,12 +568,8 @@
 <section id="outer">
 <div class="container">
     <div class="row">
-       <div class="into_div">
-            <div class="col-md-12">
-            <div class="new_container">
-                
-            </div>
-            </div>   
+       <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1913.4724793900657!2d3.3491669363863203!3d6.603883544349587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b9228fa2a3999%3A0xd7a8324bddbba1f0!2sIkeja!5e0!3m2!1sen!2sng!4v1513589880153" width="600" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
        </div>
     </div>
 </div>
@@ -449,6 +683,6 @@
 
 </body>
 
- <script src="js/bootstrap.js"></script>
+ 
 
 </html>
