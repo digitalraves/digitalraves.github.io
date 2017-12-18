@@ -1,0 +1,235 @@
+body{
+  font-family: 'Raleway', sans-serif;
+}
+
+
+.header{
+  background-color: #207EA9;
+  padding: 2em;
+}
+
+
+.navbar-brand h2{
+  margin-top: 0px;
+  color: #fff;
+}
+
+.navbar-default{
+  background-color: transparent;
+  border: none;
+}
+
+
+.navbar-default .navbar-nav > li > a{
+  color: #fff;
+  padding-left: 20px;
+}
+
+.container{
+  width: 960px;
+}
+
+.header_info{
+  width: 960px;
+  height: 500px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-image: url("../black-man-3.jpg");
+  background-size: cover;
+}
+
+
+.body_info{
+  width: 960px;
+  margin-top: 30px;
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#footer,
+#work,
+#about{
+  padding: 2em;
+  background-color: #fff;
+}
+
+
+#contact,
+#services{
+  padding: 2em;
+  background-color: #207EA9;
+}
+
+.clr1{
+  background-color: #b4b4b4;
+  color: #fff;
+}
+
+.clr2{
+  color: #207EA9;
+}
+
+.clr2 .hr{
+  border-bottom: 4px solid #207EA9;
+}
+
+
+.notop{
+  margin-top: 0px;
+}
+
+.hr{
+  width: 30px;
+  border-bottom: 4px solid #fff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+.con_div{
+  
+}
+
+.cont{
+  
+  line-height: 30px;
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.ser_list{
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+
+
+.col-md-4 h4,
+.ser_list h4{
+  border-bottom: 3px solid #ddd;
+  padding-bottom: 10px;
+}
+
+
+.work_div{
+  box-shadow: 2px  0px 2px #fff;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.img_pop{
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 10000;
+  top: 0px;
+  display: none;
+  padding: 3em;
+}
+
+.work_div:hover .img_pop{
+  display: block;
+}
+
+.img_pop a{
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.cov_icon i{
+   width: 30px;
+   height: 30px;
+   border-radius: 100%;
+   background-color: #207EA9;
+   margin-left: 10px;
+   margin-right: 10px;
+   font-size: 30px;
+   color: #fff;
+}
+
+.colv{
+  margin-top: 20px;
+
+}
+
+.cov_icon a{
+  text-decoration: none;
+}
+
+
+.cov_icon i:hover{
+  background-color: #fff;
+  color: #207EA9;
+}
+
+
+.navbar-brand{
+  padding-left: 0px;
+}
+
+
+.navbar-right {
+    margin-right: -30px;
+}
+
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    position: static;
+    
+}
+
+
+@media screen and (max-width: 414px){
+
+  .body_info,
+  .header_info,
+  .container{
+  width: auto;
+  }
+
+  .header_info{
+    height: 250px;
+  }
+
+
+  #footer,
+#work,
+#about{
+  padding: 1em;
+}
+
+
+#contact,
+#services{
+  padding: 1em;
+}
+
+.h1, h1 {
+    font-size: 30px;
+}
+
+.navbar-right {
+    margin-right: -15px;
+}
+
+
+}
+
+
+@media screen and (max-width: 990px){
+
+
+  .body_info,
+  .header_info,
+  .container{
+  width: auto;
+  }
+
+}
